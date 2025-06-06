@@ -1,0 +1,4 @@
+/server/node_modules/
+/server/.env
+/todo-front/node_modules/
+/todo-front/.env
