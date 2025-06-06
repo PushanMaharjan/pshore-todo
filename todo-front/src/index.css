@@ -1,0 +1,142 @@
+body{
+  font-family: Arial, sans-serif;
+  background-color: #FAF6E9;
+  margin: 0;
+}
+
+.todo-container{
+width: 100%;
+max-width: 800px;
+margin: auto;
+padding: 20px;
+background-color: #FFFDF6;
+border-radius: 10px;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.todo-input{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todo-input input{
+  border-radius: 10px;
+  border: 1px solid #A0C878;
+  height: 40px;
+  outline: none;
+  padding: 0px 12px;
+  font-family: Arial, sans-serif;
+  
+}
+.todo-input textarea {
+  border-radius: 10px;
+  border: 1px solid #A0C878;
+  height: 40px;
+  outline: none;
+  padding: 10px 12px;
+  font-family: Arial, sans-serif;
+
+}
+
+.todo-input button{
+  flex: 0 0 auto;
+  border: none;
+  padding: 10px 30px;
+  background-color: #A0C878;
+  color: white;
+  border-radius:9px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.todo-item button img {
+  height: 20px;
+}
+
+.todo-item button {
+  background-color: #A0C878;
+  border: none;
+  padding: 5px 7px 3px 7px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.todo-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #E0E0E050;
+}
+
+.todo-list{
+  margin: 50px 0px;
+}
+
+.todo-item-content input{
+  width: 16px;
+  height: 16px;
+  accent-color: #A0C878;
+  border: 1px solid #A0C878;
+}
+
+.todo-item-content input[type="checkbox"]{
+  margin-right: 10px;
+}
+
+.todo-item-content{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 700;
+}
+
+.item-content{
+  flex: 1;
+}
+
+.todo-list p{
+  width: 100%;
+  text-align: center;
+}
+
+.label{
+  font-size: 14px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.item-short{
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+.item-date {
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+.filter-wrapper{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.filter-wrapper label{
+  padding-top:5px
+}
+
+.filter-wrapper input{
+  accent-color: #A0C878;
+}
