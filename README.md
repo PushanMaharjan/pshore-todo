@@ -6,7 +6,9 @@ A full-stack Todo application with a Node.js/Express/MongoDB backend and a React
 
 ## Project Structure
 
-.\├── server/ # Backend (Node.js, Express, MongoDB)\└── todo-front/ # Frontend (React, Vite)
+.\
+├── server/ # Backend (Node.js, Express, MongoDB)\
+└── todo-front/ # Frontend (React, Vite)
 
 ---
 
@@ -41,13 +43,13 @@ pnpm install
 - Configure your MongoDB connection in .env
 - Start the server:
 
-pnpm start\
+pnpm start
 
 ### 3. Setup and Run the Frontend
 
 cd ../todo-front\
 pnpm install\
-pnpm dev\
+pnpm dev
 
 - The frontend will run on http://localhost:5173 (default Vite port).
 
