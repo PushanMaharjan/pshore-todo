@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/api/todos";
+const API_URL = import.meta.env.VITE_API_URL;
 
 export const getTodos = async (filter = "") => {
   const res = await axios.get(`${API_URL}${filter ? `?filter=${filter}` : ""}`);
