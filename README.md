@@ -6,9 +6,7 @@ A full-stack Todo application with a Node.js/Express/MongoDB backend and a React
 
 ## Project Structure
 
-.
-├── server/ # Backend (Node.js, Express, MongoDB)
-└── todo-front/ # Frontend (React, Vite)
+.\├── server/ # Backend (Node.js, Express, MongoDB)\└── todo-front/ # Frontend (React, Vite)
 
 ---
 
@@ -32,24 +30,24 @@ A full-stack Todo application with a Node.js/Express/MongoDB backend and a React
 
 ### 1. Clone the repository
 
-git clone <repo-url>
+git clone <repo-url>\
 cd pshore-todo
 
 ### 2. Setup and Run the Server
 
-cd server
+cd server\
 pnpm install
 
 - Configure your MongoDB connection in .env
 - Start the server:
 
-pnpm start
+pnpm start\
 
 ### 3. Setup and Run the Frontend
 
-cd ../todo-front
-pnpm install
-pnpm dev
+cd ../todo-front\
+pnpm install\
+pnpm dev\
 
 - The frontend will run on http://localhost:5173 (default Vite port).
 
