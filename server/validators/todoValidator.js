@@ -8,8 +8,8 @@ export const todoValidation = Joi.object({
 });
 
 export const todoUpdateValidation = Joi.object({
-    task: Joi.string().max(50).optional(),
+    task: Joi.string().min(1).max(50).optional(),
     completed: Joi.boolean().optional(),
-    short_desc: Joi.string().max(150).optional(),
+    short_desc: Joi.string().min(1).max(150).optional(),
     date_and_time: Joi.date().optional()
   });
